@@ -6,7 +6,7 @@ export default {
   // Show and hide
   show: Show,
   hide: Hide,
-  
+
   // Fade in
   fadeIn: FadeIn,
 
@@ -206,6 +206,36 @@ export default {
     constructor() {
       super('wheel');
     }
-  }
+  },
+  ontouchcancel: class extends EventListener {
+    constructor() {
+      super('touchcancel');
+    }
+  },
+  ontouchend: class extends EventListener {
+    constructor() {
+      super('touchend');
+    }
+  },
+  ontouchenter: class extends EventListener {
+    constructor() {
+      super('touchenter');
+    }
+  },
+  ontouchleave: class extends EventListener {
+    constructor() {
+      super('touchleave');
+    }
+  },
+  ontouchmove: class extends EventListener {
+    constructor() {
+      super('touchmove');
+    }
+  },
+  ontouchstart: class extends EventListener {
+    constructor() {
+      super('touchstart');
+    }
+  },
 }
 "use strict";
